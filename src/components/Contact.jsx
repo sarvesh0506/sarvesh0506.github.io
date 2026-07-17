@@ -73,26 +73,23 @@ export default function Contact() {
       {/* Background glow spot */}
       <div className="absolute left-10 bottom-10 w-[400px] h-[400px] bg-coca-red/5 rounded-full blur-[100px] pointer-events-none" />
 
-      {/* Section Header */}
-      <div className="text-center mb-16">
-        <motion.p 
-          initial={{ opacity: 0, y: 10 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          className="text-coca-red font-display text-sm font-bold tracking-widest uppercase mb-2"
-        >
-          Let's connect
-        </motion.p>
-        <motion.h2 
-          initial={{ opacity: 0, y: 15 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          className="text-3xl md:text-5xl font-display font-black text-white"
-        >
-          Contact Me
-        </motion.h2>
-        <div className="w-16 h-1 bg-coca-red mx-auto mt-4 rounded-full" />
-      </div>
+      {/* Scroll Reveal Wrapper */}
+      <motion.div
+        initial={{ opacity: 0, scale: 0.92, y: 30 }}
+        whileInView={{ opacity: 1, scale: 1, y: 0 }}
+        viewport={{ once: false, margin: "-120px" }}
+        transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+      >
+        {/* Section Header */}
+        <div className="text-center mb-16">
+          <p className="text-coca-red font-display text-sm font-bold tracking-widest uppercase mb-2">
+            Let's connect
+          </p>
+          <h2 className="text-3xl md:text-5xl font-display font-black text-white">
+            Contact Me
+          </h2>
+          <div className="w-16 h-1 bg-coca-red mx-auto mt-4 rounded-full" />
+        </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
         {/* Info Column (Lg: 5 columns) */}
@@ -268,6 +265,7 @@ export default function Contact() {
           </form>
         </motion.div>
       </div>
+      </motion.div>
     </section>
   );
 }
