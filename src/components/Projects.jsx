@@ -76,16 +76,6 @@ export default function Projects() {
               variants={cardVariants}
               className="glass-card flex flex-col rounded-2xl overflow-hidden hover:border-coca-red/40 group h-full"
             >
-              {/* Project Image Panel */}
-              <div className="relative aspect-[16/9] w-full overflow-hidden bg-matte-black">
-                <img 
-                  src={project.image} 
-                  alt={project.title} 
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-matte-black/90 via-matte-black/20 to-transparent" />
-              </div>
-
               {/* Project Content Info */}
               <div className="p-8 flex flex-col justify-between flex-grow">
                 <div>
@@ -116,15 +106,9 @@ export default function Projects() {
                     href={project.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center justify-center gap-2 px-5 py-2.5 rounded-full font-display font-semibold text-xs tracking-wider uppercase bg-transparent text-white border border-white/10 hover:border-coca-red hover:text-coca-red transition-all duration-300"
+                    className="flex items-center justify-center gap-2 px-6 py-2.5 rounded-full font-display font-semibold text-xs tracking-wider uppercase bg-coca-red text-white hover:bg-coca-dark transition-all duration-300 shadow-[0_0_15px_rgba(228,30,38,0.2)]"
                   >
                     <FaGithub /> GitHub
-                  </a>
-                  <a
-                    href={project.demo}
-                    className="flex items-center justify-center gap-2 px-5 py-2.5 rounded-full font-display font-semibold text-xs tracking-wider uppercase bg-coca-red text-white hover:bg-coca-dark transition-all duration-300 shadow-[0_0_15px_rgba(228,30,38,0.25)]"
-                  >
-                    <FaExternalLinkAlt size={10} /> Live Demo
                   </a>
                 </div>
               </div>
