@@ -108,7 +108,7 @@ export default function Hero() {
             <FaLinkedin />
           </a>
           <a
-            href="mailto:sarveshkumar.s0506@gmail.com"
+            href="mailto:sarveshkumarsps2006@gmail.com"
             className="text-2xl text-gray-400 hover:text-coca-red hover:scale-115 transition-all duration-300"
             aria-label="Email"
           >
@@ -173,7 +173,7 @@ export default function Hero() {
           <FaLinkedin size={18} />
         </a>
         <a
-          href="mailto:sarveshkumar.s0506@gmail.com"
+          href="mailto:sarveshkumarsps2006@gmail.com"
           className="w-10 h-10 rounded-full flex justify-center items-center border border-white/10 glass-card text-gray-400 hover:text-coca-red hover:border-coca-red transition-all duration-300"
         >
           <FaEnvelope size={18} />

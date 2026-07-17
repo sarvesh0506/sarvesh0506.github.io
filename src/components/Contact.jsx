@@ -116,8 +116,8 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="font-display font-bold text-white text-xs uppercase tracking-wide">Email</h4>
-                  <a href="mailto:sarveshkumar.s0506@gmail.com" className="text-gray-400 text-sm hover:text-coca-red transition-colors duration-300">
-                    sarveshkumar.s0506@gmail.com
+                  <a href="mailto:sarveshkumarsps2006@gmail.com" className="text-gray-400 text-sm hover:text-coca-red transition-colors duration-300">
+                    sarveshkumarsps2006@gmail.com
                   </a>
                 </div>
               </div>
@@ -129,8 +129,8 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="font-display font-bold text-white text-xs uppercase tracking-wide">Phone</h4>
-                  <a href="tel:+919789218671" className="text-gray-400 text-sm hover:text-coca-red transition-colors duration-300">
-                    +91 97892 18671
+                  <a href="tel:+917639315542" className="text-gray-400 text-sm hover:text-coca-red transition-colors duration-300">
+                    +91 76393 15542
                   </a>
                 </div>
               </div>
@@ -142,7 +142,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="font-display font-bold text-white text-xs uppercase tracking-wide">Location</h4>
-                  <p className="text-gray-400 text-sm">Chennai, India</p>
+                  <p className="text-gray-400 text-sm">Tiruppur, India</p>
                 </div>
               </div>
             </div>
