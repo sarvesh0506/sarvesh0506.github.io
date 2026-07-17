@@ -126,23 +126,11 @@ export default function Skills() {
                       <Icon />
                     </div>
 
-                    {/* Skill Progress Bar Container */}
+                    {/* Skill Info Container */}
                     <div className="flex-1">
-                      <div className="flex justify-between items-center mb-2">
-                        <span className="font-display font-bold text-white text-sm md:text-base tracking-wide">
-                          {skill.name}
-                        </span>
-                      </div>
-                      {/* Progress track */}
-                      <div className="w-full h-2 bg-matte-black border border-white/5 rounded-full overflow-hidden">
-                        <motion.div 
-                          initial={{ width: 0 }}
-                          whileInView={{ width: `${skill.level}%` }}
-                          viewport={{ once: true }}
-                          transition={{ duration: 1, ease: "easeOut" }}
-                          className="h-full bg-gradient-to-r from-coca-red to-coca-dark rounded-full shadow-[0_0_10px_rgba(228,30,38,0.5)]"
-                        />
-                      </div>
+                      <span className="font-display font-bold text-white text-sm md:text-base tracking-wide">
+                        {skill.name}
+                      </span>
                     </div>
                   </div>
                 );
