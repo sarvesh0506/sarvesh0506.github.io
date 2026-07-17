@@ -136,9 +136,6 @@ export default function Skills() {
                       <span className="font-display font-bold text-white text-sm md:text-base tracking-wide">
                         {skill.name}
                       </span>
-                      <span className="text-xs text-coca-red font-semibold">
-                        {skill.level}%
-                      </span>
                     </div>
                     {/* Progress track */}
                     <div className="w-full h-2 bg-matte-black border border-white/5 rounded-full overflow-hidden">
