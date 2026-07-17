@@ -67,7 +67,7 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 0.1 }}
           className="text-4xl md:text-7xl font-display font-black tracking-tight text-white mb-6"
         >
-          Hi, I am <span className="text-glow text-coca-red">Sarveshkumar S</span>
+          Hi, I am <span className="text-glow text-coca-red">SARVESHKUMAR S</span>
         </motion.h1>
 
         {/* Dynamic Typing Title */}
@@ -146,7 +146,7 @@ export default function Hero() {
           
           <a
             href="/resume.pdf"
-            download="Sarveshkumar_Resume.pdf"
+            download="SARVESHKUMAR_Resume.pdf"
             className="w-full sm:w-auto px-8 py-3 rounded-full font-display font-semibold text-sm uppercase tracking-wider bg-transparent text-white border border-white/20 hover:border-coca-red hover:text-coca-red hover:scale-105 transition-all duration-300 text-center cursor-pointer"
           >
             Download Resume

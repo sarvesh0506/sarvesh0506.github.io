@@ -192,7 +192,7 @@ export default function Contact() {
                 value={formData.name}
                 onChange={handleInputChange}
                 className={`w-full px-5 py-3.5 bg-matte-black border ${errors.name ? 'border-coca-red' : 'border-white/10 focus:border-coca-red/60'} rounded-lg text-white text-sm outline-none transition-colors duration-300 focus:shadow-[0_0_10px_rgba(228,30,38,0.1)]`}
-                placeholder="Sarveshkumar S"
+                placeholder="SARVESHKUMAR S"
               />
               {errors.name && <span className="text-coca-red text-[11px] font-semibold mt-1.5">{errors.name}</span>}
             </div>

@@ -1,4 +1,4 @@
-# Sarveshkumar S | Personal Portfolio
+# SARVESHKUMAR S | Personal Portfolio
 
 A modern, premium-quality personal developer portfolio website built using **React**, **Vite**, **Tailwind CSS (v4)**, and **Framer Motion**. Optimized for speed, fully responsive, and styled with a luxury **Coca-Cola inspired theme**.
 

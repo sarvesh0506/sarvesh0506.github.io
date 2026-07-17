@@ -12,14 +12,14 @@ export default function Footer() {
         
         {/* Left Side: Copyright */}
         <div className="text-gray-500 text-xs md:text-sm order-3 md:order-1 text-center md:text-left">
-          &copy; {new Date().getFullYear()} Sarveshkumar S. All rights reserved.
+          &copy; {new Date().getFullYear()} SARVESHKUMAR S. All rights reserved.
         </div>
 
         {/* Center: Branding and Made with */}
         <div className="text-gray-400 text-xs md:text-sm flex items-center justify-center gap-1.5 order-1 md:order-2">
           Made with <FaHeart className="text-coca-red animate-pulse" /> by{" "}
           <span className="font-display font-bold text-white hover:text-coca-red transition-colors duration-300">
-            Sarveshkumar S
+            SARVESHKUMAR S
           </span>
         </div>
 
