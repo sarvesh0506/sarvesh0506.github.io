@@ -60,7 +60,7 @@ export default function App() {
               
               {/* Percentage Counter */}
               <div className="text-coca-red font-display text-xs md:text-sm font-semibold tracking-widest mb-3 uppercase">
-                Brewing Coca-Cola Energy... {Math.min(progress, 100)}%
+                Hold tight... your energy is brewing... {Math.min(progress, 100)}%
               </div>
               
               {/* Progress Line */}
