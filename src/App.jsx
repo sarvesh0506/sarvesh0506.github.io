@@ -53,9 +53,9 @@ export default function App() {
                 initial={{ opacity: 0, y: -15 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
-                className="font-display font-black text-4xl md:text-6xl tracking-tighter text-white mb-6"
+                className="font-display font-black text-4xl md:text-6xl tracking-tight text-white mb-6"
               >
-                SARVESHKUMAR <span className="text-coca-red text-glow">S</span>
+                SARVESHKUMAR S
               </motion.h1>
               
               {/* Percentage Counter */}

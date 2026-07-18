@@ -35,8 +35,8 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
         {/* Logo */}
         <Link to="home" smooth={true} duration={500} className="cursor-pointer flex items-center gap-2 group">
-          <span className="font-display font-black text-2xl tracking-tighter text-white">
-            SARVESHKUMAR <span className="text-coca-red group-hover:text-white transition-colors duration-300">S</span>
+          <span className="font-display font-black text-2xl tracking-tight text-white group-hover:text-coca-red transition-colors duration-300">
+            SARVESHKUMAR S
           </span>
         </Link>
 
