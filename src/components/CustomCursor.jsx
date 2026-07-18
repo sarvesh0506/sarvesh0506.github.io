@@ -41,7 +41,7 @@ export default function CustomCursor() {
       <img 
         src={`${import.meta.env.BASE_URL}coke_cap_cursor.png`} 
         alt="Coca-Cola Cap Pointer" 
-        className="w-full h-full object-contain filter drop-shadow-[0_4px_8px_rgba(0,0,0,0.5)]"
+        className="w-full h-full object-contain rounded-full filter drop-shadow-[0_4px_8px_rgba(0,0,0,0.5)]"
       />
     </motion.div>
   );
