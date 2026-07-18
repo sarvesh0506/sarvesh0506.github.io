@@ -36,7 +36,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link to="home" smooth={true} duration={500} className="cursor-pointer flex items-center gap-2 group">
           <span className="font-display font-black text-2xl tracking-tighter text-white">
-            SARVESHKUMAR<span className="text-coca-red group-hover:text-white transition-colors duration-300"> S</span>
+            SARVESHKUMAR <span className="text-coca-red group-hover:text-white transition-colors duration-300">S</span>
           </span>
         </Link>
 
